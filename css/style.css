@@ -495,11 +495,11 @@ a:visited {
     }
   
 
-.main-nav li:hover>a,
-nav.main-nav li.active>a{
-    color: #1976d2;
-    font-weight: bold;
-}
+  .main-nav li:hover>a,
+  nav.main-nav li.active>a{
+      color: #1976d2;
+      font-weight: bold;
+  }
 
   .main-nav a{
     display: block;

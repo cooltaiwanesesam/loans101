@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Broker Registration Form on Loans101</title>
+    <link>http://101lead.com.au/loans101/signup/</link>
+    <description>Recent content in Broker Registration Form on Loans101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Loans101</copyright>
+    <lastBuildDate>Fri, 19 May 2017 21:49:20 +0200</lastBuildDate>
+    
+	<atom:link href="http://101lead.com.au/loans101/signup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

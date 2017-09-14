@@ -1,3 +1,7 @@
+$(function() {
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
+
 (function($){
     // Caption
     $('.article-entry').each(function(i){

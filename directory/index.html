@@ -21,6 +21,7 @@
     <link rel="apple-touch-icon" href="http://101lead.com.au/loans101/apple-touch-icon.png"/>
     <link rel="stylesheet" href="http://101lead.com.au/loans101/css/style.css">
     <link rel="stylesheet" href="http://101lead.com.au/loans101/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
@@ -62,7 +63,7 @@
     
 
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -85,32 +86,32 @@
   <div class="outer">
    	
     	<div id="profile">
-  <div class="inner profile-inner main-nav">
+  <div class="inner profile-inner main-nav nav">
       <ul>
-        <li calss="active">
+        <li>
           <a href="http://101lead.com.au/loans101">
-            <i class="fa fa-home fa-2x"></i>
+            <i class="material-icons">home</i>
             <span class="nav-text">Loans</span>
           </a>
         </li>
 
-        <li class="has-subnav">
+        <li>
           <a href="http://101lead.com.au/loans101/questions">
-            <i class="fa fa-comments fa-2x"></i>
-            <span class="nav-text">Ask</span>
+            <i class="material-icons">live_help</i>
+            <span class="nav-text">Q&A</span>
           </a>
         </li>
 
-        <li class="has-subnav">
+        <li>
           <a href="http://101lead.com.au/loans101/calculator">
-            <i class="fa fa-calculator fa-2x"></i>
+            <i class="material-icons">add_box</i>
             <span class="nav-text">Calculate</span>
           </a>
         </li>
 
-        <li class="has-subnav">
+        <li>
           <a href="http://101lead.com.au/loans101/directory">
-            <i class="fa fa-user fa-2x"></i>
+            <i class="material-icons">people</i>
             <span class="nav-text">Contacts</span>
           </a>
         </li>
@@ -125,7 +126,6 @@
 
     <section id="main">
     
-
 <main class=directory-main>
    <h1>Broker Contacts</h1>
    <a href="http://101lead.com.au/loans101/signup"><button class="material-button">Broker Signup</button></a>
@@ -139,11 +139,15 @@
             
                 <img src="http://101lead.com.au/loans101/avatar/jackwei.jpg" class="directory-photo">
             
-        <h1 class="title" itemprop="name">
-            <p class="heading"> Jack Wei </p>
-            <p class="subheading"><i class="fa fa-briefcase" aria-hidden="true" style="color:grey; font-size: 0.9em; margin-right: 0.5em;"></i> Financial Genius </p>
-            <p class="subheading"><i class="fa fa-map-marker" aria-hidden="true" style="color:grey; font-size: 1.1em; margin-right: 0.3em;"></i> West Ryde, 2114 </p>
-        </h1>
+            <div class="title" itemprop="name">
+                <div class="heading">
+                    <p> Jack Wei </p>
+                </div>
+                <div class="subheading">
+                    <div class="item"><i class="fa fa-briefcase" aria-hidden="true" style="color:grey; font-size: 0.9em; margin-right: 0.5em;"></i> Financial Genius </div>
+                    <div class="item"><i class="fa fa-map-marker" aria-hidden="true" style="color:grey; font-size: 1.1em; margin-right: 0.3em;"></i> West Ryde, 2114 </div>
+                </div>
+            </div>
         </a>
     </li>
   	</ul>
@@ -159,11 +163,15 @@
             
                 <img src="http://101lead.com.au/loans101/avatar/samchuang.jpg" class="directory-photo">
             
-        <h1 class="title" itemprop="name">
-            <p class="heading"> Sam Chuang </p>
-            <p class="subheading"><i class="fa fa-briefcase" aria-hidden="true" style="color:grey; font-size: 0.9em; margin-right: 0.5em;"></i> Loans101 </p>
-            <p class="subheading"><i class="fa fa-map-marker" aria-hidden="true" style="color:grey; font-size: 1.1em; margin-right: 0.3em;"></i> Sydney, 2000 </p>
-        </h1>
+            <div class="title" itemprop="name">
+                <div class="heading">
+                    <p> Sam Chuang </p>
+                </div>
+                <div class="subheading">
+                    <div class="item"><i class="fa fa-briefcase" aria-hidden="true" style="color:grey; font-size: 0.9em; margin-right: 0.5em;"></i> Loans101 </div>
+                    <div class="item"><i class="fa fa-map-marker" aria-hidden="true" style="color:grey; font-size: 1.1em; margin-right: 0.3em;"></i> Sydney, 2000 </div>
+                </div>
+            </div>
         </a>
     </li>
   	</ul>

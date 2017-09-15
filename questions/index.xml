@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ask the Experts on Loans101</title>
-    <link>http://101lead.com.au/questions/</link>
+    <link>http://loans101.com.au/questions/</link>
     <description>Recent content in Ask the Experts on Loans101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Loans101</copyright>
     
-	<atom:link href="http://101lead.com.au/questions/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://loans101.com.au/questions/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

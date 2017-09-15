@@ -1,5 +1,15 @@
 $(function() {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+    var profile = document.getElementById("sticky"),
+        anchor = profile.getElementsByTagName("a"),
+        current = window.location;
+
+    console.log("anchor = ",anchor,"current = ",current);
+
+    for (var i = 0; i < anchor.length; i++) {
+    if(anchor[i].href == current) {
+        anchor[i].className = "active";
+    }
+}
 });
 
 (function($){

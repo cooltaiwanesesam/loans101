@@ -1919,6 +1919,7 @@ iframe{
 /* ============= Contact list ====================== */
 .directory-main {
   margin-top: 80px;
+  margin-bottom: 32px;
   width: 100%;
 }
 .directory-main>h1{
@@ -2033,6 +2034,59 @@ iframe{
     font-size: 0.8rem;
   }
 }
+/* ============= Calculator ====================== */
+.calculator .container {
+  width: 100%;
+  margin: auto;
+}
+.calculator .container .list-item {
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 1px 2px #999;
+  height: 100%;
+  line-height: 1.9em;
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px 20px;
+  transform: translateZ(0);
+  transition: box-shadow 0.25s ease-in;
+  width: 100%;
+  position: relative;
+}
+.calculator .icons {
+  position: absolute;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 1.3em;
+  color: #1976d2;
+  vertical-align: middle;
+  margin: 0 30px 0 20px;
+}
+.calculator .container .heading {
+  font-size: 1.3em;
+  color: black;
+  margin-left: 90px;
+}
+@media screen and (min-width: 560px) {
+  .calculator .container .list-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  }
+}
+@media screen and (max-width: 559px) {
+  .calculator .container .list-item {
+    margin: 1px 0;
+  }
+  .calculator .icons {
+    margin-left: 0px;
+  }
+  .calculator .container .heading {
+    font-size: 1.1em;
+    color: black;
+    margin-left: 50px;
+  }
+}
+
 /* ============= Contact profile ====================== */
 .profile-card {
    margin-top: 80px; 

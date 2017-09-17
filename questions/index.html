@@ -128,18 +128,19 @@
     
 <main class=directory-main>
 
-<section>
-  <div class="header" style="height: 100px;">
-    <h1 style="margin-top: 60px; font-size: 1.3em;"> Ask the Experts </h1>
-  </div>
+<div id='discourse-comments'></div>
 
-  <div class="article-inner">
-  <div style="height: 300px; text-align: center;">
-    <img style="margin-top: 50px; width: 100px;" src="https://gianlucaguarini.github.io/site-under-construction/demos/bower/assets/img/bower-logo.svg" />
-    <h2 style="font-size: 1.5em; margin-top: 20px">Coming soon!</h2>
-  </div>
-</section>
-</div>
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'http://54.88.77.6/',
+                     discourseEmbedUrl: 'http://54.88.77.6/c/questions' };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
+
 </main>
 
     </section>

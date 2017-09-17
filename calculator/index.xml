@@ -12,5 +12,95 @@
 	<atom:link href="http://loans101.com.au/calculator/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Borrowing Power Calculator</title>
+      <link>http://loans101.com.au/calculator/borrowing_power_calculator/</link>
+      <pubDate>Thu, 19 Oct 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/borrowing_power_calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loan Repayment Calculator</title>
+      <link>http://loans101.com.au/calculator/loan_repayment_calculator/</link>
+      <pubDate>Tue, 19 Sep 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/loan_repayment_calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stamp Duty Calculator</title>
+      <link>http://loans101.com.au/calculator/stamp_duty_calculator/</link>
+      <pubDate>Sat, 19 Aug 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/stamp_duty_calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extra Repayment Calculators</title>
+      <link>http://loans101.com.au/calculator/extra_repayment_calculator/</link>
+      <pubDate>Wed, 19 Jul 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/extra_repayment_calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loan Comparison Calculators</title>
+      <link>http://loans101.com.au/calculator/loan_comparison_calculator/</link>
+      <pubDate>Mon, 19 Jun 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/loan_comparison_calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mortgage Switching Calculators</title>
+      <link>http://loans101.com.au/calculator/mortgage_switching_calculator/</link>
+      <pubDate>Fri, 19 May 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/mortgage_switching_calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Split Loan Calculators</title>
+      <link>http://loans101.com.au/calculator/split_loan_calculator/</link>
+      <pubDate>Wed, 19 Apr 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/split_loan_calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interest Only Mortgage Calculator</title>
+      <link>http://loans101.com.au/calculator/interest_only_mortgage_calculator/</link>
+      <pubDate>Sun, 19 Mar 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/interest_only_mortgage_calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rent vs Buy Calculator</title>
+      <link>http://loans101.com.au/calculator/rent_vs_buy_calculator/</link>
+      <pubDate>Sun, 19 Feb 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/rent_vs_buy_calculator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Income Tax Calculator</title>
+      <link>http://loans101.com.au/calculator/income_tax_calculator/</link>
+      <pubDate>Thu, 19 Jan 2017 21:49:20 +0200</pubDate>
+      
+      <guid>http://loans101.com.au/calculator/income_tax_calculator/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

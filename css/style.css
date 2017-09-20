@@ -399,9 +399,7 @@ a:visited {
   padding: 15px 20px;
   border-bottom: 1px solid #eceff2;
 }
-#profile .material-icons {
-    font-size: 2rem;
-}
+
 #profile .material-icons {
     position: relative;
     text-align: center;
@@ -409,7 +407,7 @@ a:visited {
     font-size: 1.5rem;
 }
 
-.main-nav li>a {
+.main-nav li a {
       border-spacing: 0;
       color: dimgrey;
       font-size: 1.03rem;
@@ -455,7 +453,7 @@ a:visited {
       display: table;
   }
 
-  .main-nav ul li a:hover, .main-nav ul li .active a {
+  .main-nav ul li a:hover, .active {
       color: white;
       background-color: #1976d2;
   }
@@ -472,6 +470,10 @@ a:visited {
   }
 
   .main-nav a.active:hover, a.active:active {
+      color: white;
+      background-color: #1976d2;
+  }
+  #profile .current {
       color: white;
       background-color: #1976d2;
   }

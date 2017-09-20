@@ -1,16 +1,13 @@
-$(function() {
-    var profile = document.getElementById("sticky"),
-        anchor = profile.getElementsByTagName("a"),
-        current = window.location;
-
-    console.log("anchor = ",anchor,"current = ",current);
-
-    for (var i = 0; i < anchor.length; i++) {
-    if(anchor[i].href == current) {
-        anchor[i].className = "active";
-    }
-}
-});
+$(function(){
+    var current = location.pathname;
+    $('#profile ul li a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.addClass('active');
+        }
+    })
+})
 
 (function($){
     // Caption

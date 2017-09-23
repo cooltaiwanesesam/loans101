@@ -416,6 +416,7 @@ a:visited {
 
 @media screen and (min-width: 1200px) {
   #profile {
+    position: relative;
     display: block;
     float: left;
     width: 21.53846153846154%;
@@ -429,16 +430,17 @@ a:visited {
     height: 5rem;
   }
   #profile .inner {
-  margin-top: 40px;
-  background: white;
-  border-right: 1px solid #e5e5e5;
+    margin-top: 40px;
+    background: white;
+    border-right: 1px solid #e5e5e5;
   }
 
   .main-nav{
-    top: 0;
+    position: fixed;
+    top: 40px;
     bottom: 0;
-    height: 100%;
-    left: 0;
+    height: 80%;
+    left: 30px;
     width: 15rem;
     overflow: hidden;
   }
@@ -612,7 +614,73 @@ a:visited {
   line-height: 1.5em;
 }
 
-
+#fab {
+  text-align: center;
+  bottom: 0px;
+  position: fixed;
+  margin: 2em;
+  right: 0px;
+  z-index: 999;
+}
+#fab i {
+  color: white;
+  font-size: 40px;
+  margin-top: 8px;
+} 
+.fabbuttons {
+  box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.18), 0px 4px 12px -7px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 20px auto 0;
+  position: relative;
+  background-color: #1976d2;
+}
+@media screen and (min-width: 560px) and (max-width: 1200px) {
+  #fab {
+    bottom: 60px;
+    margin: 1em;
+    right: 0px;
+  }
+}
+@media screen and (max-width: 559px) {
+  #fab {
+    bottom: 60px;
+    margin: 1em;
+    right: 0px;
+  }
+  #fab i {
+  font-size: 30px;
+  } 
+  .fabbuttons {
+    width: 46px;
+    height: 46px;
+  }
+}
+[tooltip]:before {
+  bottom: 25%;
+  font-family: arial;
+  font-weight: 600;
+  border-radius: 2px;
+  background: #585858;
+  color: #fff;
+  content: attr(tooltip);
+  font-size: 12px;
+  visibility: hidden;
+  opacity: 0;
+  padding: 5px 7px;
+  margin-right: 12px;
+  position: absolute;
+  right: 100%;
+  white-space: nowrap;
+}
+ 
+[tooltip]:hover:before,
+[tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
 .article {
   margin: 80px 0 -70px;
 }
@@ -2472,4 +2540,55 @@ input[type="submit"] {
   .modalbox .container .text {
     padding: 0 20px;
   }
+}
+
+/*====================Staticman Form============*/
+
+.post-comment {
+  background-color: #eee;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.post-comment-header {
+  margin-bottom: 20px;
+}
+
+.post-comment-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.post-comment-info {
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.post-comment-field {
+  display: block;
+  font: inherit;
+  padding: 10px;
+  margin-top: 20px;
+  outline-color: #1976d2;
+  width: 100%;
+}
+
+.dialog {
+  display: none;
+  position: fixed;
+  background-color: rgba(238, 238, 238, 1);
+  padding: 25px;
+  padding-top: 20%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.dialog:target {
+  display: block;
 }

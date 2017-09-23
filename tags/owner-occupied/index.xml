@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Loans101</title>
-    <link>http://loans101.com.au/</link>
-    <description>Recent content on Loans101</description>
+    <title>Owner Occupied on Loans101</title>
+    <link>http://loans101.com.au/tags/owner-occupied/</link>
+    <description>Recent content in Owner Occupied on Loans101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Loans101</copyright>
-    <lastBuildDate>Thu, 19 Oct 2017 21:49:20 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 20 Sep 2017 12:00:23 +0200</lastBuildDate>
     
-	<atom:link href="http://loans101.com.au/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://loans101.com.au/tags/owner-occupied/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Borrowing Power Calculator</title>
-      <link>http://loans101.com.au/calculator/borrowing_power_calculator/</link>
-      <pubDate>Thu, 19 Oct 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/borrowing_power_calculator/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Suncorp Bank to Basic Loan</title>
@@ -33,15 +24,6 @@
  [x] Allow Loan Increase
  [x] Split Loans
   2. Upfront Fees This is a fee that may be payable by the borrower to a lender prior to or at the application stage, of the lending process. An example of an upfront fee maybe an Application fee (while some may charge upfront, most do not), or Valuation fee (some lenders may charge, while others will cover this cost)</description>
-    </item>
-    
-    <item>
-      <title>Loan Repayment Calculator</title>
-      <link>http://loans101.com.au/calculator/loan_repayment_calculator/</link>
-      <pubDate>Tue, 19 Sep 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/loan_repayment_calculator/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -88,15 +70,6 @@
     </item>
     
     <item>
-      <title>Stamp Duty Calculator</title>
-      <link>http://loans101.com.au/calculator/stamp_duty_calculator/</link>
-      <pubDate>Sat, 19 Aug 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/stamp_duty_calculator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Citibank Mortgage Plus Standard Variable Offset</title>
       <link>http://loans101.com.au/citibank-mortgage-plus-standard-variable-offset/</link>
       <pubDate>Thu, 03 Aug 2017 12:00:23 +0200</pubDate>
@@ -125,15 +98,6 @@
     </item>
     
     <item>
-      <title>Extra Repayment Calculators</title>
-      <link>http://loans101.com.au/calculator/extra_repayment_calculator/</link>
-      <pubDate>Wed, 19 Jul 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/extra_repayment_calculator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>BankWest Equaliser Home Loan Variable 3 year introductory rate</title>
       <link>http://loans101.com.au/bankwest-equaliser-home-loan-variable-3-year-introductory-rate/</link>
       <pubDate>Thu, 06 Jul 2017 12:00:23 +0200</pubDate>
@@ -145,15 +109,6 @@
  [x] Allow Loan Increase
  [x] Split Loans
   2. Upfront Fees This is a fee that may be payable by the borrower to a lender prior to or at the application stage, of the lending process. An example of an upfront fee maybe an Application fee (while some may charge upfront, most do not), or Valuation fee (some lenders may charge, while others will cover this cost)</description>
-    </item>
-    
-    <item>
-      <title>Loan Comparison Calculators</title>
-      <link>http://loans101.com.au/calculator/loan_comparison_calculator/</link>
-      <pubDate>Mon, 19 Jun 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/loan_comparison_calculator/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -182,81 +137,6 @@
  [x] Allow Loan Increase
  [x] Split Loans
   2. Upfront Fees This is a fee that may be payable by the borrower to a lender prior to or at the application stage, of the lending process. An example of an upfront fee maybe an Application fee (while some may charge upfront, most do not), or Valuation fee (some lenders may charge, while others will cover this cost)</description>
-    </item>
-    
-    <item>
-      <title>Mortgage Switching Calculators</title>
-      <link>http://loans101.com.au/calculator/mortgage_switching_calculator/</link>
-      <pubDate>Fri, 19 May 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/mortgage_switching_calculator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Split Loan Calculators</title>
-      <link>http://loans101.com.au/calculator/split_loan_calculator/</link>
-      <pubDate>Wed, 19 Apr 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/split_loan_calculator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interest Only Mortgage Calculator</title>
-      <link>http://loans101.com.au/calculator/interest_only_mortgage_calculator/</link>
-      <pubDate>Sun, 19 Mar 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/interest_only_mortgage_calculator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rent vs Buy Calculator</title>
-      <link>http://loans101.com.au/calculator/rent_vs_buy_calculator/</link>
-      <pubDate>Sun, 19 Feb 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/rent_vs_buy_calculator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Income Tax Calculator</title>
-      <link>http://loans101.com.au/calculator/income_tax_calculator/</link>
-      <pubDate>Thu, 19 Jan 2017 21:49:20 +0200</pubDate>
-      
-      <guid>http://loans101.com.au/calculator/income_tax_calculator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jack Wei</title>
-      <link>http://loans101.com.au/directory/jack-wei/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://loans101.com.au/directory/jack-wei/</guid>
-      <description> Our highly experienced team has over 19 years of combined experience in finance industry. During this time, we’ve helped many people significantly improve their financial independence and security. Get to know more about our team and how we can help you.
- </description>
-    </item>
-    
-    <item>
-      <title>Sam Chuang</title>
-      <link>http://loans101.com.au/directory/sam-chuang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://loans101.com.au/directory/sam-chuang/</guid>
-      <description>About Sam is an experienced home loan lender with over 10 years working at both local and international banks. Sam is a self taught front end-web developer and UI/UX designer. He responsibled for the operation and the development of Loans101 platform.
-If you have any questions or feedback on how to make Loans101 a better place for customers and mortgage brokers, feel free to get in touch with Sam.</description>
-    </item>
-    
-    <item>
-      <title>Variable Rate Home Loan Comparison</title>
-      <link>http://loans101.com.au/compare/variable-rate-home-loan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://loans101.com.au/compare/variable-rate-home-loan/</guid>
-      <description>Big 4 banks and subsidiaries    Ranking Bank Variable Rate Max LVR     1 UBank 3.74% 80%   2 St George 3.8% 95%   3 Westpac 3.88% 95%   4 Commonwealth Bank 3.99% 95%   5 BankWest 3.99% 90%   6 ANZ 4.03% 90%   7 NAB 4.17% 95%    
-Non-major banks    Ranking Bank Variable Rate Max LVR     1 HSBC 3.</description>
     </item>
     
   </channel>

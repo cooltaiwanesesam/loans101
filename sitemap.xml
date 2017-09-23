@@ -118,18 +118,6 @@
   </url>
   
   <url>
-    <loc>http://loans101.com.au/tags/2-years-fixed/</loc>
-    <lastmod>2017-09-01T12:00:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://loans101.com.au/tags/90-lvr/</loc>
-    <lastmod>2017-08-03T12:00:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://loans101.com.au/categories/amp/</loc>
     <lastmod>2017-07-21T12:00:23+02:00</lastmod>
     <priority>0</priority>
@@ -168,14 +156,13 @@
   </url>
   
   <url>
-    <loc>http://loans101.com.au/tags/first-home-buyer/</loc>
-    <lastmod>2017-09-01T12:00:23+02:00</lastmod>
+    <loc>http://loans101.com.au/compare/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://loans101.com.au/tags/fixed/</loc>
-    <lastmod>2017-07-21T12:00:23+02:00</lastmod>
+    <lastmod>2017-09-01T12:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -192,30 +179,12 @@
   </url>
   
   <url>
-    <loc>http://loans101.com.au/tags/introductory-rate/</loc>
-    <lastmod>2017-08-30T12:00:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://loans101.com.au/directory/jack-wei/</loc>
   </url>
   
   <url>
     <loc>http://loans101.com.au/</loc>
     <lastmod>2017-10-19T21:49:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://loans101.com.au/tags/max-90-lvr/</loc>
-    <lastmod>2017-09-20T12:00:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://loans101.com.au/tags/max-95-lvr/</loc>
-    <lastmod>2017-08-30T12:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -232,7 +201,7 @@
   </url>
   
   <url>
-    <loc>http://loans101.com.au/tags/owner-occupier/</loc>
+    <loc>http://loans101.com.au/tags/owner-occupied/</loc>
     <lastmod>2017-09-20T12:00:23+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -269,6 +238,10 @@
     <loc>http://loans101.com.au/tags/variable/</loc>
     <lastmod>2017-09-20T12:00:23+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://loans101.com.au/compare/variable-rate-home-loan/</loc>
   </url>
   
   <url>

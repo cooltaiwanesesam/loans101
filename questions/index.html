@@ -77,7 +77,7 @@
 
 
 <div id="container">
-	<header id="header">
+  <header id="header">
   <div id="header-main" class="header-inner">
     <div class="outer">
       <a href="http://loans101.com.au/" id="logo">
@@ -91,8 +91,8 @@
 </header>
 
   <div class="outer">
-   	
-    	<div id="profile">
+    
+      <div id="profile">
   <div class="inner profile-inner main-nav nav">
       <ul>
         <li>
@@ -103,7 +103,7 @@
         </li>
 
         <li>
-          <a href="http://answers.loans101.com.au/">
+          <a class="active" href="#">
             <i class="material-icons">help</i>
             <span class="nav-text">Q&A</span>
           </a>
@@ -132,26 +132,51 @@
     
 
     <section id="main">
-    
-<main class=directory-main>
 
-<div id='discourse-comments'></div>
+<main class="directory-main">
+  <div class="article-inner">
+   <div class="form-title">
+      <h1>Q&A - Ask the Experts</h1> 
+   </div>
 
-<script type="text/javascript">
-  DiscourseEmbed = { discourseUrl: 'http://54.88.77.6/',
-                     discourseEmbedUrl: 'http://54.88.77.6/c/questions' };
 
-  (function() {
-    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-  })();
-</script>
+   
 
+<section class="post-comments">
+
+  <form class="post-new-comment" method="POST" action="https://api.staticman.net/v2/entry/cooltaiwanesesam/loans101/master/questions">
+  
+    <input type="hidden" name="options[redirect]" value="http://loans101.com.au/questions/#question-submitted">
+    <input type="hidden" name="options[entryId]" value="5b3a6584a66916d4a5c95fc288993849">
+    <textarea name="fields[body]" class="post-comment-field" placeholder="Your question." rows="10" required></textarea>
+    <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name" required>
+    <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address" required>
+    <input type="submit" class="post-comment-field submit" value="Submit">
+  </form>
+</section>
+
+<div id="comment-submitted" class="dialog">
+<h3>Thank you</h3>
+  <p>Your comment has been submitted and will be published once it has been approved.</p>
+</div>
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+
+</div>
 </main>
 
     </section>
-	</div>
+  </div>
 </div>
 
 <footer id="footer">

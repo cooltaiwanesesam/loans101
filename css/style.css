@@ -475,10 +475,6 @@ a:visited {
       color: white;
       background-color: #1976d2;
   }
-  #profile .current {
-      color: white;
-      background-color: #1976d2;
-  }
 }
 
 
@@ -517,7 +513,19 @@ a:visited {
       color: #1976d2;
       font-weight: bold;
   }
+  .main-nav ul li a:hover, .active {
+      color: #1976d2;
+      font-weight: bold;
+  }
+  .main-nav a[href].active, a.active:active {
+      color: #1976d2;
+      font-weight: bold;
+  }
 
+  .main-nav a.active:hover, a.active:active {
+      color: #1976d2;
+      font-weight: bold;
+  }
   .main-nav a{
     display: block;
     padding: 5px;
@@ -2461,25 +2469,20 @@ input[type="submit"] {
 }
 .modalbox .container {
   position: relative;
-  background-color: #1976d2;
+  background-color: lightgrey;
   margin: 100px 50px 150px;
   padding: 50px 30px;
-  color: white;
+  color: #1976d2;
 }
 .modalbox .icon {
   position: relative;
-  margin-top: -100px;
-  left: calc(50% - 50px);
-  background: #4caf50;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+  margin-top: -115px;
 }
 .modalbox .icon i {
   position: relative;
-  font-size: 5em;
+  font-size: 7em;
   font-weight: bolder;
-  color: #fff;
+  color: #1976d2;
   text-align: center;
   padding-top: 15px;
 }
@@ -2490,39 +2493,47 @@ input[type="submit"] {
 .modalbox .container p {
   font-size: 1.1em;
   margin-bottom: 30px;
-}
-.modalbox .image {
-  width: 100%;
-  content: url(images/capture.jpg);
-  margin-bottom: 50px;
+  text-align: left;
 }
 .center {
   float: none;
   margin-left: auto;
   margin-right: auto;
 }
-.modalbox .button {
-  font-size: 1.2rem;
-  color: #1976d2;
-  background: #fff;
+.modalbox .wrapper {
+  text-align: center;
+}
+.modalbox button {
+  width: 200px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: #fff;
+  background: #d50000;
   padding: 5px 10px;
   border: 0;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
 }
-.modalbox .button:hover {
+.modalbox button:hover {
   box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.3);
-  background: #F2F5F5;
+  background: #ff5131;
 }
-.modalbox .button:focus {
+.modalbox button:focus {
   outline: none;
 }
+.modalbox button a {
+  text-decoration: none;
+  color: white;
+}
+.modalbox .material-icons {
+  font-size: 1.3em;
+}
+
 @media screen and (max-width: 559px) {
   .modalbox {
     margin: -100px 0 -100px;
     padding-bottom: 20px;
   }
   .modalbox .button {
-    margin: -40px 5px 0 0;
     padding: 10px 10px;
     font-size: 1em;
   }

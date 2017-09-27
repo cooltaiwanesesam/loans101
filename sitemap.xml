@@ -123,6 +123,18 @@
   </url>
   
   <url>
+    <loc>http://loans101.com.au/test/1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://loans101.com.au/test/2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://loans101.com.au/test/3/</loc>
+  </url>
+  
+  <url>
     <loc>http://loans101.com.au/categories/amp/</loc>
     <lastmod>2017-07-21T12:00:23+02:00</lastmod>
     <priority>0</priority>
@@ -130,6 +142,10 @@
   
   <url>
     <loc>http://loans101.com.au/questions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://loans101.com.au/test/</loc>
   </url>
   
   <url>
@@ -185,6 +201,10 @@
   
   <url>
     <loc>http://loans101.com.au/directory/jack-wei/</loc>
+  </url>
+  
+  <url>
+    <loc>http://loans101.com.au/directory/kathy-robinson/</loc>
   </url>
   
   <url>

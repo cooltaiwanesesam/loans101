@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ask the Experts on Loans101</title>
+    <link>http://loans101.com.au/test/</link>
+    <description>Recent content in Ask the Experts on Loans101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Loans101</copyright>
+    
+	<atom:link href="http://loans101.com.au/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://loans101.com.au/test/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://loans101.com.au/test/1/</guid>
+      <description>Buying a first home as an investment can have long term benefits and help put young Australians in a better financial position for the following reasons:
+You can continue living at home and get into the property market sooner. The rental income can be used to help with the loan repayments and any savings can be put in an offset account to reduce interest on the loan.
+There are a wider range of properties to choose from.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://loans101.com.au/test/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://loans101.com.au/test/2/</guid>
+      <description>Limiting yourself to just your home state could limit your potential to increase your capital gains and rental yield if you are not investing in areas with potential growth or demand. It is also a way of diversifying your risk by investing in different locations. There are a number of simple things you can do to limit the risks of buying interstate and improve your chances of buying in a strong market with a lot of potential.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://loans101.com.au/test/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://loans101.com.au/test/3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -690,7 +690,7 @@ a:visited {
   opacity: 1;
 }
 .article {
-  margin: 80px 0 -70px;
+  margin-top: 80px;
 }
 .article-inner {
   padding: 20px;

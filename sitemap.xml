@@ -123,18 +123,6 @@
   </url>
   
   <url>
-    <loc>http://loans101.com.au/test/1/</loc>
-  </url>
-  
-  <url>
-    <loc>http://loans101.com.au/test/2/</loc>
-  </url>
-  
-  <url>
-    <loc>http://loans101.com.au/test/3/</loc>
-  </url>
-  
-  <url>
     <loc>http://loans101.com.au/categories/amp/</loc>
     <lastmod>2017-07-21T12:00:23+02:00</lastmod>
     <priority>0</priority>
@@ -142,6 +130,10 @@
   
   <url>
     <loc>http://loans101.com.au/directory/arthur-lim/</loc>
+  </url>
+  
+  <url>
+    <loc>http://loans101.com.au/test/2/</loc>
   </url>
   
   <url>
@@ -202,6 +194,14 @@
   </url>
   
   <url>
+    <loc>http://loans101.com.au/test/1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://loans101.com.au/test/5/</loc>
+  </url>
+  
+  <url>
     <loc>http://loans101.com.au/categories/ing/</loc>
     <lastmod>2017-05-20T12:00:23+02:00</lastmod>
     <priority>0</priority>
@@ -219,6 +219,10 @@
     <loc>http://loans101.com.au/</loc>
     <lastmod>2017-10-19T21:49:20+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://loans101.com.au/test/3/</loc>
   </url>
   
   <url>
@@ -283,6 +287,10 @@
   
   <url>
     <loc>http://loans101.com.au/compare/variable-rate-home-loan/</loc>
+  </url>
+  
+  <url>
+    <loc>http://loans101.com.au/test/4/</loc>
   </url>
   
   <url>

@@ -2226,10 +2226,26 @@ iframe{
   margin-right: 5px;
   vertical-align: bottom;
 }
+.qa .button {
+  font-family: "Roboto", sans-serif;
+  width: 80px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #0d47a1;
+  background-color: #e3f2fd;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  padding:5px;
+}
+.qa .button i {
+  font-size: 1.2em;
+  margin-right: 5px;
+  vertical-align: middle;
+}
 @media screen and (max-width: 559px) {
   .qa {
   margin: 10px 0;
-  padding: 20px 0 0 0;
+  padding: 20px 0 20px 0;
   }
 }
 /* ============= Calculator ====================== */
@@ -2830,4 +2846,13 @@ input[type="submit"] {
   text-decoration: none;
   top: 0;
   z-index: 1;
+}
+/* ============= Answer toggle ====================== */
+/* https://codepen.io/johno/pen/jlnHE */
+.summary {
+  display: none;
+}
+
+.answer {
+  cursor: pointer;
 }

@@ -2520,6 +2520,7 @@ input[type="submit"] {
   color: white;
   border: none;
   box-shadow: 0px 3px 3px rgba(0,0,0,.3);
+  cursor: pointer;
 }
 .submit {
   text-align: right; 
@@ -2854,5 +2855,9 @@ input[type="submit"] {
 }
 
 .answer {
+  margin: 0 20px;
+  font-family: "Roboto", sans-serif;
+}
+.answer .button {
   cursor: pointer;
 }

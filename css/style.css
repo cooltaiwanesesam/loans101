@@ -2843,11 +2843,12 @@ input[type="submit"] {
 
 @media (min-width: 60em) {
   .modaloverlay .modal {
-    height: 75%;
+    height: 70%;
     margin: 5% auto;
     max-height: 57em;
     max-width: 66em;
     width: 85%;
+    overflow: hidden;
   }
 }
 

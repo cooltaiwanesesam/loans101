@@ -645,19 +645,40 @@ a:visited {
   position: relative;
   background-color: #1976d2;
 }
-@media screen and (min-width: 560px) and (max-width: 1200px) {
+#tooltip {
+  position: absolute;
+  color: white;
+  background-color: #d50000;
+  padding: 7px 10px;
+  width: 120px;
+  right: 70px;
+  border-radius: 5px;
+  bottom: 10px;
+}
+#tooltip:before {
+   content:"";
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-top: 6px solid transparent;
+   border-left: 12px solid #d50000;
+   border-bottom: 6px solid transparent;
+   right: -10px;
+   bottom: 10px;
+}
+@media screen and (max-width: 1200px) {
   #fab {
     bottom: 60px;
     margin: 1em;
     right: 0px;
+  }
+  #tooltip {
+  right: 60px;
+  border-radius: 5px;
+  bottom: 7px;
   }
 }
 @media screen and (max-width: 559px) {
-  #fab {
-    bottom: 60px;
-    margin: 1em;
-    right: 0px;
-  }
   #fab i {
   font-size: 30px;
   } 

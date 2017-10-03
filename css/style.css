@@ -2364,7 +2364,7 @@ iframe{
   }
 @media screen and (max-width: 559px) {
   .profile-card {
-   margin-top: -60px; 
+   margin-top: -10px; 
   }
   .profile-card .background-photo {
     height: 150px;

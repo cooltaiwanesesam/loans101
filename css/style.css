@@ -2319,7 +2319,51 @@ iframe{
     margin-left: 50px;
   }
 }
-
+.calculator-main .navbar {
+  border: 1px solid black;
+}
+.calculator-main .back {
+  display: inline-block;
+  width: 15%;
+  background-color: grey;
+}
+.calculator-main .nav {
+  display: inline-block;
+  width: 80%;
+  background-color: yellow;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.show {display:block;}
 /* ============= Contact profile ====================== */
 .profile-card {
    margin-top: 10px; 

@@ -2322,21 +2322,27 @@ iframe{
 .calculator-main .navbar {
   border: 1px solid black;
 }
-.calculator-main .back {
-  display: inline-block;
-  width: 15%;
-  background-color: grey;
+.back {
+    position: relative;
+    display: inline-block;
 }
-.calculator-main .nav {
-  display: inline-block;
-  width: 80%;
-  background-color: yellow;
+.calculator-main .backbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  margin-left: 23px;
+  margin-bottom: 5px;
 }
+
 /* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
     color: white;
-    padding: 16px;
+    padding: 10px;
     font-size: 16px;
     border: none;
     cursor: pointer;

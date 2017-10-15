@@ -2057,6 +2057,25 @@ iframe{
   font-size: 1.8em;
   padding: 80px 20px 20px 20px;
 }
+/* - Horizontal Scrollable Menu - */
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
 .directory .container {
   width: 100%;
   margin: auto;
@@ -2159,36 +2178,6 @@ iframe{
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
-.bt:hover {
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
-}
-
-.bt:before {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  vertical-align: middle;
-  z-index: 1;
-  will-change: opacity, transform;
-  background-color: rgba(236, 240, 241, 0.3);
-  top: 50%;
-  left: 50%;
-  border-radius: 100%;
-  width: 0;
-  padding-top: 0;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-}
-
-.bt:active:before {
-  width: 120%;
-  padding-top: 120%;
-  transition: width .2s ease-out, padding-top .2s ease-out;
-}
-
 .default {
   background-color: #1976d2;
 }
@@ -2201,6 +2190,7 @@ iframe{
     margin-top: -10px;
   }
   .directory-main>h1 {
+    display: none;
     font-size: 1.3em;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -2221,6 +2211,14 @@ iframe{
     margin: -40px 5px 0 0;
     padding: 10px 10px;
     font-size: 0.8rem;
+  }
+  .bt {
+    width: 80px;
+    margin: 10px 10px 0 0;
+    padding: 0px;
+    height: 40px;
+    line-height: 15px;
+    text-transform: none;
   }
 }
 /* ============= Q&A ====================== */

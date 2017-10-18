@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>States on Loans101</title>
+    <link>http://loans101.com.au/states/</link>
+    <description>Recent content in States on Loans101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Loans101</copyright>
+    
+	<atom:link href="http://loans101.com.au/states/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
